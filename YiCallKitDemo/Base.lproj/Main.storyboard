@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12106.1" systemVersion="16E154a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12074.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AJb-KD-zeu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="95"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tel" translatesAutoresizingMaskIntoConstraints="NO" id="NLu-7X-fuB">
+                                        <rect key="frame" x="0.0" y="8" width="118" height="87"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="87" id="VPW-tO-f31"/>
+                                            <constraint firstAttribute="width" constant="118" id="tXw-m0-wVb"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YiCallKitDemo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5oT-qm-hSc">
+                                        <rect key="frame" x="118" y="8" width="249" height="87"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="249" id="HDl-mj-fvh"/>
+                                            <constraint firstAttribute="height" constant="87" id="VdP-it-GP5"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="25"/>
+                                        <color key="textColor" red="0.96710641598033209" green="1" blue="0.93355455948290111" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.16077661514282227" green="0.14710021018981934" blue="0.22993800044059753" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="NLu-7X-fuB" secondAttribute="bottom" id="FzR-Z1-KKQ"/>
+                                    <constraint firstAttribute="width" constant="375" id="Kge-ml-bAJ"/>
+                                    <constraint firstItem="NLu-7X-fuB" firstAttribute="leading" secondItem="AJb-KD-zeu" secondAttribute="leading" id="QM8-PJ-rLE"/>
+                                    <constraint firstItem="NLu-7X-fuB" firstAttribute="top" secondItem="AJb-KD-zeu" secondAttribute="top" constant="8" id="SCO-UL-Afk"/>
+                                    <constraint firstAttribute="height" constant="95" id="Xm5-RZ-2hC"/>
+                                    <constraint firstItem="5oT-qm-hSc" firstAttribute="leading" secondItem="NLu-7X-fuB" secondAttribute="trailing" id="Z9g-Z9-LZZ"/>
+                                    <constraint firstItem="5oT-qm-hSc" firstAttribute="top" secondItem="AJb-KD-zeu" secondAttribute="top" constant="8" id="d7g-lL-gg0"/>
+                                    <constraint firstAttribute="bottom" secondItem="5oT-qm-hSc" secondAttribute="bottom" id="iJp-WH-Zsm"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="输入号码可以拨打电话" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTh-lA-sJe">
+                                <rect key="frame" x="0.0" y="139" width="375" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="NG3-4x-bua"/>
+                                    <constraint firstAttribute="height" constant="54" id="m6U-1x-Dwk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入号码" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="c5g-Eb-f8w">
+                                <rect key="frame" x="26" y="241" width="323" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3o1-4i-D5P"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Calling" translatesAutoresizingMaskIntoConstraints="NO" id="ils-k8-plM">
+                                <rect key="frame" x="51" y="315" width="272" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="coE-g5-w7k"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6e-Oc-PEg">
+                                <rect key="frame" x="51" y="469" width="272" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="6ym-UW-Va8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="更新号码"/>
+                                <connections>
+                                    <action selector="updateNum:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e03-Uv-JBs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fTh-lA-sJe" firstAttribute="top" secondItem="AJb-KD-zeu" secondAttribute="bottom" constant="44" id="5LZ-PR-RVS"/>
+                            <constraint firstItem="c5g-Eb-f8w" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="26" id="7WQ-2N-ILI"/>
+                            <constraint firstItem="fTh-lA-sJe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7mA-NG-N6z"/>
+                            <constraint firstAttribute="trailing" secondItem="g6e-Oc-PEg" secondAttribute="trailing" constant="52" id="8Od-bI-64S"/>
+                            <constraint firstItem="AJb-KD-zeu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="9PP-Ao-7eq"/>
+                            <constraint firstItem="ils-k8-plM" firstAttribute="top" secondItem="c5g-Eb-f8w" secondAttribute="bottom" constant="44" id="ItA-jJ-KUn"/>
+                            <constraint firstAttribute="trailing" secondItem="c5g-Eb-f8w" secondAttribute="trailing" constant="26" id="TKg-uA-aE4"/>
+                            <constraint firstItem="ils-k8-plM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="51" id="UJX-qv-9OC"/>
+                            <constraint firstAttribute="trailing" secondItem="ils-k8-plM" secondAttribute="trailing" constant="52" id="cdZ-aa-1zA"/>
+                            <constraint firstItem="g6e-Oc-PEg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="51" id="exZ-Dx-6O4"/>
+                            <constraint firstAttribute="trailing" secondItem="AJb-KD-zeu" secondAttribute="trailing" id="g9w-7s-3xj"/>
+                            <constraint firstItem="AJb-KD-zeu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hw8-lf-bUC"/>
+                            <constraint firstItem="c5g-Eb-f8w" firstAttribute="top" secondItem="fTh-lA-sJe" secondAttribute="bottom" constant="48" id="nTe-JO-m0Z"/>
+                            <constraint firstAttribute="trailing" secondItem="fTh-lA-sJe" secondAttribute="trailing" id="zOc-a8-NUK"/>
+                            <constraint firstItem="g6e-Oc-PEg" firstAttribute="top" secondItem="ils-k8-plM" secondAttribute="bottom" constant="26" id="zWd-Rm-yCQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="callView" destination="ils-k8-plM" id="xIE-Cw-dO0"/>
+                        <outlet property="phoneNumTextF" destination="c5g-Eb-f8w" id="2pZ-CH-PK9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.40000000000001" y="139.880059970015"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Calling" width="300" height="300"/>
+        <image name="Tel" width="480" height="300"/>
+    </resources>
+</document>
