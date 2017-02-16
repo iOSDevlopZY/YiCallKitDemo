@@ -5,11 +5,12 @@
 //  Created by Developer_Yi on 2017/2/16.
 //  Copyright © 2017年 mac. All rights reserved.
 //
-
+#import "ViewController.h"
 #import "TodayViewController.h"
 #import <NotificationCenter/NotificationCenter.h>
 
 @interface TodayViewController () <NCWidgetProviding>
+@property (weak, nonatomic) IBOutlet UILabel *telLabel;
 
 @end
 
@@ -17,7 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    UITapGestureRecognizer *reg=[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(pass)];
+    self.telLabel.userInteractionEnabled=YES;
+    [self.telLabel addGestureRecognizer:reg];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,4 +38,10 @@
     completionHandler(NCUpdateResultNewData);
 }
 
+- (void)pass
+{
+    [self.extensionContext openURL:[NSURL URLWithString:@"CallTelPhone://"] completionHandler:^(BOOL success) {
+        NSLog(@"open url result:%d",success);
+    }];
+}
 @end

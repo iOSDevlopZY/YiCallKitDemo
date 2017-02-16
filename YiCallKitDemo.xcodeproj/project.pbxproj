@@ -883,6 +883,7 @@
 				0C28FE201E5550CC00615B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CF88B361E538BA000E8407D /* Build configuration list for PBXProject "YiCallKitDemo" */ = {
 			isa = XCConfigurationList;
