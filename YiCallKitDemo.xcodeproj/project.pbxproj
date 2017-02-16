@@ -7,6 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C28FE131E5550CC00615B19 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C28FE121E5550CC00615B19 /* NotificationCenter.framework */; };
+		0C28FE171E5550CC00615B19 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C28FE161E5550CC00615B19 /* TodayViewController.m */; };
+		0C28FE1A1E5550CC00615B19 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE181E5550CC00615B19 /* MainInterface.storyboard */; };
+		0C28FE1E1E5550CC00615B19 /* CallTelPhone.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0C28FE101E5550CC00615B19 /* CallTelPhone.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0C28FE231E5569F900615B19 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE221E5569F900615B19 /* Search.png */; };
+		0C28FE351E556A5800615B19 /* diagnosis_wg9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE251E556A5800615B19 /* diagnosis_wg9@2x.png */; };
+		0C28FE361E556A5800615B19 /* diagnosis_wg9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE251E556A5800615B19 /* diagnosis_wg9@2x.png */; };
+		0C28FE371E556A5800615B19 /* diagnosis_wg9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE261E556A5800615B19 /* diagnosis_wg9@3x.png */; };
+		0C28FE381E556A5800615B19 /* diagnosis_wg9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE261E556A5800615B19 /* diagnosis_wg9@3x.png */; };
+		0C28FE391E556A5800615B19 /* diagnosis_wg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE271E556A5800615B19 /* diagnosis_wg@2x.png */; };
+		0C28FE3A1E556A5800615B19 /* diagnosis_wg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE271E556A5800615B19 /* diagnosis_wg@2x.png */; };
+		0C28FE3B1E556A5800615B19 /* diagnosis_wg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE281E556A5800615B19 /* diagnosis_wg@3x.png */; };
+		0C28FE3C1E556A5800615B19 /* diagnosis_wg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE281E556A5800615B19 /* diagnosis_wg@3x.png */; };
+		0C28FE3D1E556A5800615B19 /* game_wg9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE291E556A5800615B19 /* game_wg9@2x.png */; };
+		0C28FE3E1E556A5800615B19 /* game_wg9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE291E556A5800615B19 /* game_wg9@2x.png */; };
+		0C28FE3F1E556A5800615B19 /* game_wg9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE2A1E556A5800615B19 /* game_wg9@3x.png */; };
+		0C28FE401E556A5800615B19 /* game_wg9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE2A1E556A5800615B19 /* game_wg9@3x.png */; };
+		0C28FE411E556A5800615B19 /* game_wg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE2B1E556A5800615B19 /* game_wg@2x.png */; };
+		0C28FE421E556A5800615B19 /* game_wg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE2B1E556A5800615B19 /* game_wg@2x.png */; };
+		0C28FE431E556A5800615B19 /* game_wg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE2C1E556A5800615B19 /* game_wg@3x.png */; };
+		0C28FE441E556A5800615B19 /* game_wg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE2C1E556A5800615B19 /* game_wg@3x.png */; };
+		0C28FE451E556A5800615B19 /* season_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE2D1E556A5800615B19 /* season_@3x.png */; };
+		0C28FE461E556A5800615B19 /* season_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE2D1E556A5800615B19 /* season_@3x.png */; };
+		0C28FE471E556A5800615B19 /* season_wg9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE2E1E556A5800615B19 /* season_wg9@2x.png */; };
+		0C28FE481E556A5800615B19 /* season_wg9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE2E1E556A5800615B19 /* season_wg9@2x.png */; };
+		0C28FE491E556A5800615B19 /* season_wg9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE2F1E556A5800615B19 /* season_wg9@3x.png */; };
+		0C28FE4A1E556A5800615B19 /* season_wg9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE2F1E556A5800615B19 /* season_wg9@3x.png */; };
+		0C28FE4B1E556A5800615B19 /* season_wg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE301E556A5800615B19 /* season_wg@2x.png */; };
+		0C28FE4C1E556A5800615B19 /* season_wg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE301E556A5800615B19 /* season_wg@2x.png */; };
+		0C28FE4D1E556A5800615B19 /* test_wg9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE311E556A5800615B19 /* test_wg9@2x.png */; };
+		0C28FE4E1E556A5800615B19 /* test_wg9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE311E556A5800615B19 /* test_wg9@2x.png */; };
+		0C28FE4F1E556A5800615B19 /* test_wg9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE321E556A5800615B19 /* test_wg9@3x.png */; };
+		0C28FE501E556A5800615B19 /* test_wg9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE321E556A5800615B19 /* test_wg9@3x.png */; };
+		0C28FE511E556A5800615B19 /* test_wg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE331E556A5800615B19 /* test_wg@2x.png */; };
+		0C28FE521E556A5800615B19 /* test_wg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE331E556A5800615B19 /* test_wg@2x.png */; };
+		0C28FE531E556A5800615B19 /* test_wg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE341E556A5800615B19 /* test_wg@3x.png */; };
+		0C28FE541E556A5800615B19 /* test_wg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C28FE341E556A5800615B19 /* test_wg@3x.png */; };
 		0C3E598A1E53A020003DDC72 /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3E59861E53A020003DDC72 /* MBProgressHUD+NJ.m */; };
 		0C3E598B1E53A020003DDC72 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C3E59871E53A020003DDC72 /* MBProgressHUD.bundle */; };
 		0C3E598C1E53A020003DDC72 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3E59891E53A020003DDC72 /* MBProgressHUD.m */; };
@@ -23,6 +60,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0C28FE1C1E5550CC00615B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CF88B331E538BA000E8407D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C28FE0F1E5550CC00615B19;
+			remoteInfo = CallTelPhone;
+		};
 		0CF88B551E538BA000E8407D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0CF88B331E538BA000E8407D /* Project object */;
@@ -54,6 +98,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				0CF88B7D1E538C4400E8407D /* YiCallKitDemoExtension.appex in Embed App Extensions */,
+				0C28FE1E1E5550CC00615B19 /* CallTelPhone.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,6 +106,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C28FE101E5550CC00615B19 /* CallTelPhone.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CallTelPhone.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C28FE121E5550CC00615B19 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		0C28FE151E5550CC00615B19 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		0C28FE161E5550CC00615B19 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		0C28FE191E5550CC00615B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		0C28FE1B1E5550CC00615B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C28FE221E5569F900615B19 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Search.png; path = ../Search.png; sourceTree = "<group>"; };
+		0C28FE251E556A5800615B19 /* diagnosis_wg9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diagnosis_wg9@2x.png"; sourceTree = "<group>"; };
+		0C28FE261E556A5800615B19 /* diagnosis_wg9@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diagnosis_wg9@3x.png"; sourceTree = "<group>"; };
+		0C28FE271E556A5800615B19 /* diagnosis_wg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diagnosis_wg@2x.png"; sourceTree = "<group>"; };
+		0C28FE281E556A5800615B19 /* diagnosis_wg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diagnosis_wg@3x.png"; sourceTree = "<group>"; };
+		0C28FE291E556A5800615B19 /* game_wg9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game_wg9@2x.png"; sourceTree = "<group>"; };
+		0C28FE2A1E556A5800615B19 /* game_wg9@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game_wg9@3x.png"; sourceTree = "<group>"; };
+		0C28FE2B1E556A5800615B19 /* game_wg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game_wg@2x.png"; sourceTree = "<group>"; };
+		0C28FE2C1E556A5800615B19 /* game_wg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game_wg@3x.png"; sourceTree = "<group>"; };
+		0C28FE2D1E556A5800615B19 /* season_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "season_@3x.png"; sourceTree = "<group>"; };
+		0C28FE2E1E556A5800615B19 /* season_wg9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "season_wg9@2x.png"; sourceTree = "<group>"; };
+		0C28FE2F1E556A5800615B19 /* season_wg9@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "season_wg9@3x.png"; sourceTree = "<group>"; };
+		0C28FE301E556A5800615B19 /* season_wg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "season_wg@2x.png"; sourceTree = "<group>"; };
+		0C28FE311E556A5800615B19 /* test_wg9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test_wg9@2x.png"; sourceTree = "<group>"; };
+		0C28FE321E556A5800615B19 /* test_wg9@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test_wg9@3x.png"; sourceTree = "<group>"; };
+		0C28FE331E556A5800615B19 /* test_wg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test_wg@2x.png"; sourceTree = "<group>"; };
+		0C28FE341E556A5800615B19 /* test_wg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test_wg@3x.png"; sourceTree = "<group>"; };
 		0C3E59851E53A020003DDC72 /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
 		0C3E59861E53A020003DDC72 /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
 		0C3E59871E53A020003DDC72 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
@@ -89,6 +157,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0C28FE0D1E5550CC00615B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C28FE131E5550CC00615B19 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CF88B381E538BA000E8407D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -120,6 +196,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C28FE111E5550CC00615B19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C28FE121E5550CC00615B19 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C28FE141E5550CC00615B19 /* CallTelPhone */ = {
+			isa = PBXGroup;
+			children = (
+				0C28FE241E556A5800615B19 /* widgetImage */,
+				0C28FE151E5550CC00615B19 /* TodayViewController.h */,
+				0C28FE161E5550CC00615B19 /* TodayViewController.m */,
+				0C28FE181E5550CC00615B19 /* MainInterface.storyboard */,
+				0C28FE1B1E5550CC00615B19 /* Info.plist */,
+			);
+			path = CallTelPhone;
+			sourceTree = "<group>";
+		};
+		0C28FE241E556A5800615B19 /* widgetImage */ = {
+			isa = PBXGroup;
+			children = (
+				0C28FE221E5569F900615B19 /* Search.png */,
+				0C28FE251E556A5800615B19 /* diagnosis_wg9@2x.png */,
+				0C28FE261E556A5800615B19 /* diagnosis_wg9@3x.png */,
+				0C28FE271E556A5800615B19 /* diagnosis_wg@2x.png */,
+				0C28FE281E556A5800615B19 /* diagnosis_wg@3x.png */,
+				0C28FE291E556A5800615B19 /* game_wg9@2x.png */,
+				0C28FE2A1E556A5800615B19 /* game_wg9@3x.png */,
+				0C28FE2B1E556A5800615B19 /* game_wg@2x.png */,
+				0C28FE2C1E556A5800615B19 /* game_wg@3x.png */,
+				0C28FE2D1E556A5800615B19 /* season_@3x.png */,
+				0C28FE2E1E556A5800615B19 /* season_wg9@2x.png */,
+				0C28FE2F1E556A5800615B19 /* season_wg9@3x.png */,
+				0C28FE301E556A5800615B19 /* season_wg@2x.png */,
+				0C28FE311E556A5800615B19 /* test_wg9@2x.png */,
+				0C28FE321E556A5800615B19 /* test_wg9@3x.png */,
+				0C28FE331E556A5800615B19 /* test_wg@2x.png */,
+				0C28FE341E556A5800615B19 /* test_wg@3x.png */,
+			);
+			path = widgetImage;
+			sourceTree = "<group>";
+		};
 		0C3E59841E53A020003DDC72 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +260,8 @@
 				0CF88B571E538BA000E8407D /* YiCallKitDemoTests */,
 				0CF88B621E538BA000E8407D /* YiCallKitDemoUITests */,
 				0CF88B761E538C4400E8407D /* YiCallKitDemoExtension */,
+				0C28FE141E5550CC00615B19 /* CallTelPhone */,
+				0C28FE111E5550CC00615B19 /* Frameworks */,
 				0CF88B3C1E538BA000E8407D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -151,6 +273,7 @@
 				0CF88B541E538BA000E8407D /* YiCallKitDemoTests.xctest */,
 				0CF88B5F1E538BA000E8407D /* YiCallKitDemoUITests.xctest */,
 				0CF88B751E538C4400E8407D /* YiCallKitDemoExtension.appex */,
+				0C28FE101E5550CC00615B19 /* CallTelPhone.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,6 +333,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0C28FE0F1E5550CC00615B19 /* CallTelPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C28FE211E5550CC00615B19 /* Build configuration list for PBXNativeTarget "CallTelPhone" */;
+			buildPhases = (
+				0C28FE0C1E5550CC00615B19 /* Sources */,
+				0C28FE0D1E5550CC00615B19 /* Frameworks */,
+				0C28FE0E1E5550CC00615B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallTelPhone;
+			productName = CallTelPhone;
+			productReference = 0C28FE101E5550CC00615B19 /* CallTelPhone.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		0CF88B3A1E538BA000E8407D /* YiCallKitDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CF88B681E538BA000E8407D /* Build configuration list for PBXNativeTarget "YiCallKitDemo" */;
@@ -223,6 +363,7 @@
 			);
 			dependencies = (
 				0CF88B7C1E538C4400E8407D /* PBXTargetDependency */,
+				0C28FE1D1E5550CC00615B19 /* PBXTargetDependency */,
 			);
 			name = YiCallKitDemo;
 			productName = YiCallKitDemo;
@@ -291,6 +432,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = mac;
 				TargetAttributes = {
+					0C28FE0F1E5550CC00615B19 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = YZX9D3JF2R;
+						ProvisioningStyle = Automatic;
+					};
 					0CF88B3A1E538BA000E8407D = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = YZX9D3JF2R;
@@ -332,19 +478,61 @@
 				0CF88B531E538BA000E8407D /* YiCallKitDemoTests */,
 				0CF88B5E1E538BA000E8407D /* YiCallKitDemoUITests */,
 				0CF88B741E538C4400E8407D /* YiCallKitDemoExtension */,
+				0C28FE0F1E5550CC00615B19 /* CallTelPhone */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0C28FE0E1E5550CC00615B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C28FE461E556A5800615B19 /* season_@3x.png in Resources */,
+				0C28FE4C1E556A5800615B19 /* season_wg@2x.png in Resources */,
+				0C28FE3E1E556A5800615B19 /* game_wg9@2x.png in Resources */,
+				0C28FE501E556A5800615B19 /* test_wg9@3x.png in Resources */,
+				0C28FE441E556A5800615B19 /* game_wg@3x.png in Resources */,
+				0C28FE541E556A5800615B19 /* test_wg@3x.png in Resources */,
+				0C28FE361E556A5800615B19 /* diagnosis_wg9@2x.png in Resources */,
+				0C28FE421E556A5800615B19 /* game_wg@2x.png in Resources */,
+				0C28FE381E556A5800615B19 /* diagnosis_wg9@3x.png in Resources */,
+				0C28FE1A1E5550CC00615B19 /* MainInterface.storyboard in Resources */,
+				0C28FE231E5569F900615B19 /* Search.png in Resources */,
+				0C28FE401E556A5800615B19 /* game_wg9@3x.png in Resources */,
+				0C28FE481E556A5800615B19 /* season_wg9@2x.png in Resources */,
+				0C28FE521E556A5800615B19 /* test_wg@2x.png in Resources */,
+				0C28FE3A1E556A5800615B19 /* diagnosis_wg@2x.png in Resources */,
+				0C28FE4A1E556A5800615B19 /* season_wg9@3x.png in Resources */,
+				0C28FE3C1E556A5800615B19 /* diagnosis_wg@3x.png in Resources */,
+				0C28FE4E1E556A5800615B19 /* test_wg9@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CF88B391E538BA000E8407D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0CF88B4E1E538BA000E8407D /* LaunchScreen.storyboard in Resources */,
+				0C28FE3F1E556A5800615B19 /* game_wg9@3x.png in Resources */,
+				0C28FE411E556A5800615B19 /* game_wg@2x.png in Resources */,
+				0C28FE4D1E556A5800615B19 /* test_wg9@2x.png in Resources */,
+				0C28FE4B1E556A5800615B19 /* season_wg@2x.png in Resources */,
+				0C28FE471E556A5800615B19 /* season_wg9@2x.png in Resources */,
+				0C28FE431E556A5800615B19 /* game_wg@3x.png in Resources */,
+				0C28FE511E556A5800615B19 /* test_wg@2x.png in Resources */,
 				0C3E598B1E53A020003DDC72 /* MBProgressHUD.bundle in Resources */,
+				0C28FE391E556A5800615B19 /* diagnosis_wg@2x.png in Resources */,
 				0CF88B4B1E538BA000E8407D /* Assets.xcassets in Resources */,
+				0C28FE371E556A5800615B19 /* diagnosis_wg9@3x.png in Resources */,
+				0C28FE3D1E556A5800615B19 /* game_wg9@2x.png in Resources */,
+				0C28FE531E556A5800615B19 /* test_wg@3x.png in Resources */,
+				0C28FE451E556A5800615B19 /* season_@3x.png in Resources */,
 				0CF88B491E538BA000E8407D /* Main.storyboard in Resources */,
+				0C28FE491E556A5800615B19 /* season_wg9@3x.png in Resources */,
+				0C28FE351E556A5800615B19 /* diagnosis_wg9@2x.png in Resources */,
+				0C28FE3B1E556A5800615B19 /* diagnosis_wg@3x.png in Resources */,
+				0C28FE4F1E556A5800615B19 /* test_wg9@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +560,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0C28FE0C1E5550CC00615B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C28FE171E5550CC00615B19 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0CF88B371E538BA000E8407D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -411,6 +607,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0C28FE1D1E5550CC00615B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C28FE0F1E5550CC00615B19 /* CallTelPhone */;
+			targetProxy = 0C28FE1C1E5550CC00615B19 /* PBXContainerItemProxy */;
+		};
 		0CF88B561E538BA000E8407D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0CF88B3A1E538BA000E8407D /* YiCallKitDemo */;
@@ -429,6 +630,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		0C28FE181E5550CC00615B19 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C28FE191E5550CC00615B19 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		0CF88B471E538BA000E8407D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -448,6 +657,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0C28FE1F1E5550CC00615B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YZX9D3JF2R;
+				INFOPLIST_FILE = CallTelPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mac.YiCallKitDemo.CallTelPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0C28FE201E5550CC00615B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YZX9D3JF2R;
+				INFOPLIST_FILE = CallTelPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mac.YiCallKitDemo.CallTelPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		0CF88B661E538BA000E8407D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -643,6 +876,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C28FE211E5550CC00615B19 /* Build configuration list for PBXNativeTarget "CallTelPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C28FE1F1E5550CC00615B19 /* Debug */,
+				0C28FE201E5550CC00615B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		0CF88B361E538BA000E8407D /* Build configuration list for PBXProject "YiCallKitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
